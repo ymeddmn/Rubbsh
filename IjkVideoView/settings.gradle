@@ -1,0 +1,2 @@
+include ':app', ':IjkLib'
+rootProject.name='IjkVideoView'

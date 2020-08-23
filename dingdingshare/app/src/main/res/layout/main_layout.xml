@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="#f1f1f1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="#87cef7"
+            android:text="钉钉分享Demo v2"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+
+
+        <TextView
+            android:background="@android:color/holo_blue_light"
+            android:text="消息发送前校验的API"
+            android:gravity="left|center"
+            android:textSize="12sp"
+            android:paddingLeft="6dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:layout_marginTop="6dp"
+            android:id="@+id/ding_install_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60dp"
+            android:minHeight="48dp"
+            android:text="钉钉是否安装"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:id="@+id/share_support_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:minWidth="60dp"
+            android:minHeight="48dp"
+            android:text="钉钉是否支持分享到好友"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:id="@+id/share_ding_support_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:minWidth="60dp"
+            android:minHeight="48dp"
+            android:text="钉钉是否支持分享到Ding"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            />
+
+        <Button
+                android:id="@+id/auth_support_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:minWidth="60dp"
+                android:minHeight="48dp"
+                android:text="钉钉是否支持登录授权"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:textSize="22sp"
+        />
+
+        <TextView
+            android:background="@android:color/holo_blue_light"
+            android:text="分享到好友"
+            android:gravity="left|center"
+            android:textSize="12sp"
+            android:paddingLeft="6dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/text"
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60dp"
+            android:minHeight="48dp"
+            android:text="文本分享"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:id="@+id/image"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60dp"
+            android:minHeight="48dp"
+            android:text="图片分享"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:id="@+id/link"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60dp"
+            android:minHeight="48dp"
+            android:text="链接分享"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            />
+
+        <Button
+                android:id="@+id/auth"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="60dp"
+                android:minHeight="48dp"
+                android:text="授权免登"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:textSize="22sp"
+        />
+
+        <Button
+            android:id="@+id/zfb"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60dp"
+            android:minHeight="48dp"
+            android:text="支付宝红包分享"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:background="@android:color/holo_blue_light"
+            android:text="分享到Ding"
+            android:gravity="left|center"
+            android:textSize="12sp"
+            android:paddingLeft="6dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/ding_text"
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60dp"
+            android:minHeight="48dp"
+            android:text="文本分享"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:id="@+id/ding_image"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60dp"
+            android:minHeight="48dp"
+            android:text="图片分享"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:id="@+id/ding_link"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60dp"
+            android:minHeight="48dp"
+            android:text="链接分享"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:id="@+id/ding_zfb"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60dp"
+            android:minHeight="48dp"
+            android:text="支付宝红包分享"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

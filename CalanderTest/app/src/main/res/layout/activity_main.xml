@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:text="添加事件"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:text="删除事件"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:text="更新事件"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_query"
+        android:layout_width="match_parent"
+        android:text="查询事件"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_db"
+        android:layout_width="match_parent"
+        android:text="创建数据库"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_querydb"
+        android:layout_width="match_parent"
+        android:text="查询数据库"
+        android:layout_height="wrap_content" />
+</LinearLayout>

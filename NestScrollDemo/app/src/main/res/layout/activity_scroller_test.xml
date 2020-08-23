@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hivescm.tms.consignor.nestscrolldemo.ui.scroll.ScrollerTestActivity">
+    <com.hivescm.tms.consignor.nestscrolldemo.view.ScrollTestView
+        android:background="#f00"
+        android:id="@+id/scroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:layout_width="50dp"
+            android:background="#00f"
+            android:layout_height="50dp" />
+    </com.hivescm.tms.consignor.nestscrolldemo.view.ScrollTestView>
+</LinearLayout>

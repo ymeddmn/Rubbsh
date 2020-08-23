@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="charset" content="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<title>拍照混合测试</title>
+<script type="text/javascript" >
+
+function btn1(){
+	//alert(window.javaInterface.OSUtils.getAppVersion())
+	//alert("btn1")
+	 SystemCamera.capture("1","50","camaraSucCall","camaraFailCall");
+}
+function camaraSucCall(str){
+	
+	alert("success camara")
+	document.getElementById("img").src = "data:image/png;base64,"+str;
+}
+function camaraFailCall(){
+	alert("fail to camara")
+}
+
+function btn2(){
+	SystemCamera.showPictures(50,"showPicSuc","showPicFail");
+}
+function showPicSuc(s){
+	document.getElementById("img").src = "data:image/png;base64,"+s;
+ 
+}
+function showPicFail( ){
+	alert("fail to showPicFail")
+ 
+}
+
+function btn3(){
+	OpenNativeUiBox.open("DownLoadAcitivity");
+}
+
+function btn4(){
+	SystemCamera.capture(50,"captureSuccess","captureFail");
+}
+
+function btn5(){
+	SocialShare.shareToDingtalkSession("sdf","sdf","https://img-blog.csdn.net/20161231083801806?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvamF2YXplamlhbg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast","https://blog.csdn.net/javazejian/article/details/53892797","supportDing");
+}
+
+function btn6(){
+	SocialShare.isSupportDingtalk("supportDing");
+}
+
+function supportDing(data){
+	alert(data);
+}
+
+function captureSuccess(image, type,size){
+	alert(image)
+
+}
+
+function captureFail( ){
+	alert("fail to showPicFail")
+
+}
+
+function btn7(){
+	OSUtils.quit()
+}
+</script>
+</head>
+<body>
+	<div>
+		<button style="width: 100%; height: 60px" onclick="btn1();">拍照</button>
+		<br />
+		<button style="width: 100%; height: 60px" onclick="btn2();">打开相册</button>
+		<br />
+		<button style="width: 100%; height: 60px" onclick="btn3();">获取照片</button>
+		<br />
+		<button style="width: 100%; height: 60px" onclick="btn4();">拍照或者打开相册</button>
+		<br />
+		<button style="width: 100%; height: 60px" onclick="btn6();">是否支持钉钉分享</button>
+		<br/>
+		<button style="width: 100%; height: 60px" onclick="btn5();">分享到钉钉</button>
+		<br />
+		<button style="width: 100%; height: 60px" onclick="btn7();">退出app</button>
+		<br />
+		<div>
+			<img style="width: 120px; height:120px" id="img" alt="图片" src="#" />
+		</div>
+	</div>
+
+</body>
+</html>

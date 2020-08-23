@@ -1,0 +1,17 @@
+package com.example.igradleplugin;
+
+import android.util.Log;
+
+public class S {
+    public S() {
+        StringBuilder s = new StringBuilder();
+        s.append("23");
+        s.append("sss");
+
+    }
+
+    public static void e(String a){
+        Log.e("haha",a);
+    }
+
+}

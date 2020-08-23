@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/activity_stop_game_0" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.example.gameproject.widget.LeftRightTextView android:id="@id/lrt_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="178.0dip" />
+    <com.example.gameproject.widget.LeftRightTextView android:id="@id/lrt_pattern" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="17.0dip" />
+    <com.example.gameproject.widget.LeftRightTextView android:id="@id/lrt_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="17.0dip" />
+    <include android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="15.0dip" layout="@layout/item_gamer_header" />
+    <android.support.v7.widget.RecyclerView android:id="@id/recycle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/tv_notice" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="暂无玩家" />
+    <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/btn_stoporstartgame" android:tag="binding_2" android:background="@drawable/shp_bluebg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="24.0dip" />
+</LinearLayout>

@@ -1,0 +1,43 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<meta http-equiv="Content-Type"	content="text/html;charset=utf-8">
+<script type="text/javascript">
+    function javacalljs(){
+
+	 document.getElementById("content").innerHTML +=
+         "java调用js代码";
+}
+
+function javacalljswithargs(arg){
+	 document.getElementById("content").innerHTML +=
+         (arg);
+
+
+}
+function javacalljswithargs(arg,arg1){
+    document.getElementById("mytextId").value +=
+            arg1;
+    document.getElementById("content").innerHTML +=
+            (arg+arg1);
+}
+
+    function javacalljsclear(){
+        document.getElementById("mytextId").value="";
+    }
+//function init()
+//{
+//    var testVal = document.getElementById('mytextId').value;
+//    AndroidFunction.showToast(testVal);
+//}
+</script>
+</head>
+<br>
+<br/>
+<input  onpaste="return false" readonly="readonly" onClick="window.wst.startFunction()"  type="text" style="width: 180px;"
+       name="myText" id="mytextId" /><br><br>
+<a onClick="window.wst.startFunction()">不传任何参数</a><br/><br>
+<a onClick="window.wst.startFunction('京东金融，一个参数')" >传递一个参数</a></br><br/>
+<a onClick="window.wst.startFunction('京东金融','两个参数')" >传递两个参数</a><br/><br/>
+<div id="content" style="background:#000; color:#FFF;">键盘输入的内容是ʾ</div>
+</body>
+</html>

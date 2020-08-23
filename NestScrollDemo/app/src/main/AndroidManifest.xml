@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hivescm.tms.consignor.nestscrolldemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.scroll.SecondActivity" />
+        <activity android:name=".ui.scroll.ThirdActivity" />
+        <activity android:name=".ui.scroll.FourthActivity" />
+        <activity android:name=".ui.scroll.ScrollerTestActivity" />
+        <activity android:name=".ui.scroll.ViewPositionActivity" />
+        <activity
+            android:name=".ui.coordinate.CoordinatorLayoutActivity1"
+            android:label="CoordinatorLayout与AppBarLayout" />
+        <activity
+            android:name=".ui.coordinate.CoordinateManagerActivity"
+            android:label="Coor管理类" />
+        <activity
+            android:name=".ui.coordinate.CollapsingToolbarLayoutRecyclerViewActivity"
+            android:label="recycler与CollapsingToolbarLayout华东嵌套" />
+        <activity
+            android:name=".ui.coordinate.CollapsingToolbarLayoutWithScrollViewActivity"
+            android:label="NestScrollView与CollapsingToolbarLayout的滑动嵌套" />
+        <activity android:name=".ui.scroll.ScrollActivity" android:label="一些原生的华东处理"/>
+    </application>
+
+</manifest>

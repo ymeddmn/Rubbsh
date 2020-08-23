@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_inner_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内部存储路径" />
+
+    <TextView
+        android:id="@+id/tv_inner_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_outer_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="外部存储路径" />
+
+    <TextView
+        android:id="@+id/tv_outer_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_outer_packagepath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获得外部存储包名路径下的缓存路径" />
+
+    <TextView
+        android:id="@+id/tv_outer_packagepath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_saveto_external"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入要存储的文字" />
+
+    <Button
+        android:id="@+id/btn_saveto_external"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="存输入框文字到外部存储aaaaa路径中" />
+
+    <Button
+        android:id="@+id/btn_read_externalfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读上面写进文件的数据" />
+
+    <TextView
+        android:id="@+id/tv_read_externalfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

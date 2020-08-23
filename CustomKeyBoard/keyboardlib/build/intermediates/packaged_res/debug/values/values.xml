@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="keyboard_black">#000000</color>
+    <color name="keyboard_colorAccent">#FF4081</color>
+    <color name="keyboard_colorPrimary">#3F51B5</color>
+    <color name="keyboard_colorPrimaryDark">#303F9F</color>
+    <color name="keyboard_gray">#bdbdbd</color>
+    <color name="keyboard_green">#00ff00</color>
+    <color name="keyboard_keyTextColor">#424242</color>
+    <color name="keyboard_red">#ff0000</color>
+    <color name="keyboard_transparent">#00000000</color>
+    <color name="keyboard_white">#ffffff</color>
+    <dimen name="keyboard_activity_horizontal_margin">16dp</dimen>
+    <dimen name="keyboard_activity_vertical_margin">16dp</dimen>
+    <dimen name="keyboard_horizontalGap">10dp</dimen>
+    <dimen name="keyboard_key_height">45dp</dimen>
+    <dimen name="keyboard_key_height_double">120dp</dimen>
+    <dimen name="keyboard_verticalGap">10dp</dimen>
+    <string name="keyboard_app_name">软键盘</string>
+    <string name="keyboard_key1">"@"</string>
+    <string name="keyboard_key2">"&amp;"</string>
+    <string name="keyboard_key3">\"</string>
+    <string name="keyboard_key4">"&lt;"</string>
+    <string name="keyboard_key5">">"</string>
+    <string name="keyboard_password">请输入密码</string>
+    <string name="keyboard_username">请输入用户名</string>
+    <style mce_bogus="1" name="keyboard_popupAnimation" parent="android:Animation">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/keyboard_transparent</item>
+        <item name="android:windowExitAnimation">@anim/keyboard_anim_dismiss</item>
+    </style>
+</resources>

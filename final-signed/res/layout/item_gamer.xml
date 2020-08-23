@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/ll_top" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="12.0sp" android:textColor="#ff585858" android:gravity="center" android:id="@id/tv_answer" android:layout_width="wrap_content" android:layout_height="24.0dip" android:text="玩家" android:layout_weight="3.0" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff585858" android:gravity="center" android:id="@id/tv_right" android:layout_width="wrap_content" android:layout_height="24.0dip" android:text="正确答题数" android:layout_weight="5.0" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff585858" android:gravity="center" android:id="@id/tv_error" android:layout_width="wrap_content" android:layout_height="24.0dip" android:text="答错数" android:layout_weight="3.0" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff1890ff" android:gravity="center" android:id="@id/tv_taotai" android:layout_width="wrap_content" android:layout_height="24.0dip" android:text="淘汰" android:layout_weight="3.0" />
+        <TextView android:textSize="12.0sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="24.0dip" android:text="选他" android:layout_weight="4.0" />
+    </LinearLayout>
+    <View android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

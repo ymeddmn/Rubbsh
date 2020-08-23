@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">钉分享Demo</string>
+
+    <string name="share_text_default">这段分享文字来自钉钉分享demo</string>
+</resources>

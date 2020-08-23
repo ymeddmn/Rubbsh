@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.CrashActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_click_crash"
+        android:text="点击崩溃"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_nullpoint"
+        android:layout_width="match_parent"
+        android:text="空指针"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_clear_crash"
+        android:layout_width="match_parent"
+        android:text="清除错误信息"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_delete_ainfo"
+        android:layout_width="match_parent"
+        android:text="删除一条信息"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

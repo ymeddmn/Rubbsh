@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.hivescm.tms.consignor.nestscrolldemo.ui.scroll.ViewPositionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/iv1"
+            android:layout_marginTop="50dp"
+            android:layout_width="100dp"
+            android:background="#f00"
+            android:gravity="center"
+            android:text="点击我设置translateX"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="100dp" />
+        <TextView
+            android:id="@+id/iv2"
+            android:layout_marginTop="50dp"
+            android:layout_width="100dp"
+            android:background="#f00"
+            android:gravity="center"
+            android:text="点击我设置X"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="100dp" />
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_marginTop="50dp"
+            android:layout_width="100dp"
+            android:background="#f00"
+            android:gravity="center"
+            android:text="scrollX"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_marginTop="50dp"
+            android:layout_width="100dp"
+            android:background="#f00"
+            android:gravity="center"
+            android:text="setLeft"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_marginTop="50dp"
+            android:layout_width="100dp"
+            android:background="#f00"
+            android:gravity="center"
+            android:text="howeverlistener"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="100dp" />
+    </LinearLayout>
+</ScrollView>

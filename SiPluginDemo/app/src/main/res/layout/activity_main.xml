@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="崩溃处理"
+        android:id="@+id/btn_crash"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="页面路径"
+        android:id="@+id/btn_trace"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="点击事件"
+        android:id="@+id/btn_click"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_device_ifno"
+        android:layout_width="match_parent"
+        android:text="手机基本信息"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_internet"
+        android:layout_width="match_parent"
+        android:text="网络请求Okhttp3"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_okhttp2"
+        android:layout_width="match_parent"
+        android:text="网络请求okhttp2"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_httpurlconnection"
+        android:layout_width="match_parent"
+        android:text="网络请求httpurlconnection"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_database"
+        android:layout_width="match_parent"
+        android:text="数据库操作"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_webview"
+        android:text="跳到webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,61 @@
+html,body{
+	background: #1b1b32;
+	color: #ffffff;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.main{
+	width: 1280px;
+	margin: 0 auto;
+	height: 720px;
+	overflow: hidden;
+}
+.main_left{
+    width:776px;
+    height: 720px;
+    overflow: auto;
+    float: left;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+ /* 设置滚动条的样式 */
+        .main_left::-webkit-scrollbar {
+        width:12px;
+        background-color: #141428;
+        }
+
+        /* 滚动槽 */
+        .main_left::-webkit-scrollbar-track {
+        border-radius:10px;
+        }
+
+        /* 滚动条滑块 */
+        .main_left::-webkit-scrollbar-thumb {
+        border-radius:10px;
+        background:#cb5a34;
+        }
+ .right{
+ 	 width: 500px;
+ 	 height: 720px;
+ 	 overflow: hidden;
+ 	 float: left;
+ }
+.zifei{
+	width: 100%;
+	text-align: center;
+	font-size: 34px;
+	margin-top: 204px;
+}
+.ma{
+	width: 210px;
+	height: 210px;
+	margin: 0 auto;
+	margin-top: 184px;
+}
+.di{
+	font-size: 26px;
+	text-align: center;
+	margin-top: 15px;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <!-- <link rel="Shortcut Icon" href="images/head-logo.png" type="image/x-icon"> -->
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/my.css">
+    <title></title>
+
+</head>
+<body>
+   <div class="main">
+        <div class="top">
+           <ul class="my_list">
+                <li class="act"><span><img src="img/wuzi.png"></span>我的IPTV</li>
+                <li><span><img src="img/women.png"></span>关于我们</li>
+                <li class="gh"><span><img src="img/dl.png"></span>退出登录</li>
+           </ul>
+        </div>
+        <div class="box">
+            <div class="box_same" style="display: block;">
+                <ul class="xinxi_list">
+                    <li>
+                        <div class="title">号码信息</div>
+                        <div class="xinxi">
+                            <div class="xinxi_count">
+                                <div class="xinxi_countleft">
+                                    <ul class="count">
+                                        <li>号码</li>
+                                        <li>入网时间</li>
+                                        <li>实名认证</li>
+                                        <li>归属地</li>
+                                        <li>网龄</li>
+                                        <li>当前套餐</li>
+                                        <li>星际</li>
+                                    </ul>
+                                </div>
+                                <div class="xinxi_countright">
+                                    <ul class="count">
+                                        <li>***********</li>
+                                        <li>2019-03-11 09:00:00</li>
+                                        <li>实名认证</li>
+                                        <li>山西</li>
+                                        <li>1年1月</li>
+                                        <li>全球通</li>
+                                        <li>三星</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">宽带信息</div>
+                        <div class="xinxi">
+                            <div class="xinxi_count">
+                                <div class="xinxi_countleft">
+                                    <ul class="count">
+                                        <li>宽带信息</li>
+                                        <li>账号状态</li>
+                                        <li>装机时间</li>
+                                        <li>到期时间</li>
+                                        <li>当前宽带</li>
+                                        <li>宽带套餐</li>
+                                        <li>宽带类型</li>
+                                    </ul>
+                                </div>
+                                <div class="xinxi_countright">
+                                    <ul class="count">
+                                        <li>***********</li>
+                                        <li>正常</li>
+                                        <li>2019-03-11 09:00:00</li>
+                                        <li>长期有效</li>
+                                        <li>100M</li>
+                                        <li>***********</li>
+                                        <li>100M</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="box_same">
+                 <div class="title">号码信息</div>
+                 <div class="jieshao">
+                     <p class="jieshao_title">电视营业厅产品介绍</p>
+                     <p class="jieshao_z">电视营业厅是中国移动山西公司打造的一款以通信服务为核心的汇集移动服务查询，业务办理，优惠活动聚合的综合性产品。通过电视营业厅可进行话费查询、交费和业务办理等自助服务，随时随地的轻松获取移动产品最新信息。我们更致力便捷服务，随心随行让客户享受更多移动优惠和特色服务。</p>
+                 </div>
+                 <div class="foot">客服电话：10086</div>
+                 <div class="foot" style="margin-top: 13px;">版权归属：中国移动通信集团山西有限公司</div>
+            </div>
+        </div>
+   </div>
+   <div class="tui">
+       <div class="tui_box">
+           <div class="tui_count">是否登出当前帐号？</div>
+           <div class="btn_box">
+               <div class="que ac">确认登出</div>
+               <div class="quxiao">暂不登出</div>
+           </div>
+       </div>
+   </div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+    $(".my_list li").on("click",function(){
+         $(this).addClass("act").siblings().removeClass("act");
+         var index=$(this).index();
+         $(".box>.box_same").eq(index).show().siblings().hide(); 
+    })
+     $(".btn_box div").on("click",function(){
+        $(".tui").hide();
+    })
+      $(".gh").on("click",function(){
+        $(".tui").show();
+    })
+</script>
+</body>
+</html>

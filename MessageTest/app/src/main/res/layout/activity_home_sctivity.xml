@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeSctivity">
+
+    <Button
+        android:id="@+id/btn_sendmsg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:text="在当前页面发送短信"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_turn_sms"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sendmsg"
+        android:layout_height="wrap_content"
+        android:text="跳转系统发送短信页面"
+        android:layout_width="match_parent"
+        />
+    <Button
+        android:id="@+id/btn_to_permission"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_turn_sms"
+        android:layout_width="match_parent"
+        android:text="跳转到修改权限页面"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_have_sendmsg"
+        android:layout_width="match_parent"
+        android:text="判断用户是否有发短信权限"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_to_permission"
+        android:layout_height="wrap_content" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,92 @@
+group = 'com.gavynzhang.myatlastest'
+version = getEnvValue("versionName", "1.0.0");      //版本号
+def apVersion = getEnvValue("apVersion", "");
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.taobao.atlas'
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.atlas1"
+        minSdkVersion 27
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    compile('com.taobao.android:atlas_core:5.0.7.42@aar') {
+        transitive = true
+    }
+    compile 'com.taobao.android:atlasupdate:1.1.4.11@aar'
+
+}
+
+atlas {
+    atlasEnabled true   //打开atlas
+    tBuildConfig {
+        // autoStartBundles = ['com.android.homebundle'] //自启动bundle配置
+        outOfApkBundles = ['remotebundle']      //远程module，列表来的，可填多个
+        preLaunch = 'com.gavynzhang.myatlastest.AtlasLaunch' //AppApplication启动之前调用，这个类下面放出代码
+    }
+    patchConfigs {
+        debug {
+            createTPatch true
+        }
+    }
+    buildTypes {
+        debug {
+            if (apVersion) {
+                // 打差异补丁 gradlew assembleDebug -DapVersion=1.1.0 -DversionName=1.1.1
+                // 对应着本地maven仓库地址 .m2/repository/com/gavynzhang/myatlastest/AP-debug/1.0.0/AP-debug-1.0.0.ap
+                baseApDependency "com.gavynzhang.myatlastest:AP-debug:${apVersion}@ap"
+                patchConfig patchConfigs.debug
+            }
+        }
+    }
+}
+
+String getEnvValue(key, defValue) {
+    def val = System.getProperty(key);
+    if (null != val) {
+        return val;
+    }
+    val = System.getenv(key);
+    if (null != val) {
+        return val;
+    }
+    return defValue;
+}
+publishing {
+    // 指定仓库位置
+    repositories {
+        mavenLocal()
+    }
+    publications {
+        // 默认本地仓库地址  用户目录/.m2/repository/
+        maven(MavenPublication) {
+            //读取ap目录上传maven
+            artifact "${project.buildDir}/outputs/apk/${project.name}-debug.ap"
+            //生成本地maven目录
+            groupId group
+            artifactId "AP-debug"
+        }
+    }
+}
+

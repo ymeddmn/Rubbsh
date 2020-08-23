@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/AndroidNetworkSpeed" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AndroidPdfViewer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AndroidTabTriangleScrollBar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AnimationHelper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AtlasTest2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BehaviorDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Breakpad" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Chapter01" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CorveredTitleScrollView" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CustomOutButton" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DaggerModules" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FloatMenuSample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Flutter-Instagram-UI-Clone" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FlutterDouBan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FlutterExampleApps" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FlutterGameOfThrones" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FlutterQuizApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FlutterWhatsAppClone" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FlycoTabLayout" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GSYGithubAppFlutter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HivescmSimple" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HookDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JsBridge" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/KTools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LBehavior" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Magnifier" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Market" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MyNestedScrolling" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MySwipeBackLayout" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MyTestGradlePluginProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ParallaxHeaderViewPager" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PokemonApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ResideLayout" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ScreenRecordHelper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SelfMarket" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Shadow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SimpleBrowser" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SourceDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SwipeDelMenuLayout" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SwipeLayout" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SystemBarTint" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TmsConsignor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TmsTaskDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ViewDragHelperDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ViewDragHelperTest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ViscousSwipeItem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/WaveDemoAndroid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Weather" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/WmsRF" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/XCSlideView" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bamboy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dexknife-wj" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/luckyTurnTable" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/recycleview-study" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shopcar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/smooth-app-bar-layout" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tms1/TmsEmployee" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/transparent-over-animtabsview" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/weex-todo-list" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/youxi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/zidingyiviewceshi" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,109 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:17:1-44:12
+INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:17:1-44:12
+INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:17:1-44:12
+MERGED from [himedia-camera-9.0.0.101.aar] /Users/mayong/.gradle/caches/transforms-1/files-1.1/himedia-camera-9.0.0.101.aar/d189b652ac3ce45b4ac5d1d5f9d60e71/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-v13:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/0c8d620d33af3f9f648a1258efd0afd2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/7c07f5757dff08a19c6e68b0cfaeaa0a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/dcea37a7df1339d33a4e06fb70f0fa74/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/9604e484d86502a19df824d39e75faf5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/9f83f20825a7ecd3fa506eca3e56adc8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/298c1205cb0ad37459ba5f984d502987/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/df9b4512a5678ed30cb6d1742cddc471/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/edb1b4c6016ee0ce885d09427c32cee0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/mayong/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ed4fef2ac22189242f6bf975a6aa454b/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:17:1-44:12
+INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:17:1-44:12
+	package
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:18:5-47
+	android:versionName
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:20:5-30
+		INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:17:11-69
+	android:versionCode
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:19:5-28
+		INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:24:5-64
+MERGED from [himedia-camera-9.0.0.101.aar] /Users/mayong/.gradle/caches/transforms-1/files-1.1/himedia-camera-9.0.0.101.aar/d189b652ac3ce45b4ac5d1d5f9d60e71/AndroidManifest.xml:11:5-65
+MERGED from [himedia-camera-9.0.0.101.aar] /Users/mayong/.gradle/caches/transforms-1/files-1.1/himedia-camera-9.0.0.101.aar/d189b652ac3ce45b4ac5d1d5f9d60e71/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:24:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:25:5-70
+	android:name
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:25:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:26:22-78
+application
+ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:28:5-42:19
+	android:label
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:29:9-41
+	android:icon
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:30:9-45
+	android:allowBackup
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:28:18-44
+	android:theme
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:31:9-45
+activity#com.example.android.camera2video.CameraActivity
+ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:33:9-40:20
+	android:screenOrientation
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:35:19-55
+	android:label
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:34:19-51
+	android:name
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:33:19-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:36:13-39:29
+action#android.intent.action.MAIN
+ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml:38:27-74
+uses-sdk
+INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml
+MERGED from [himedia-camera-9.0.0.101.aar] /Users/mayong/.gradle/caches/transforms-1/files-1.1/himedia-camera-9.0.0.101.aar/d189b652ac3ce45b4ac5d1d5f9d60e71/AndroidManifest.xml:7:5-9:41
+MERGED from [himedia-camera-9.0.0.101.aar] /Users/mayong/.gradle/caches/transforms-1/files-1.1/himedia-camera-9.0.0.101.aar/d189b652ac3ce45b4ac5d1d5f9d60e71/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v13:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/0c8d620d33af3f9f648a1258efd0afd2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/0c8d620d33af3f9f648a1258efd0afd2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/7c07f5757dff08a19c6e68b0cfaeaa0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/7c07f5757dff08a19c6e68b0cfaeaa0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/dcea37a7df1339d33a4e06fb70f0fa74/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/dcea37a7df1339d33a4e06fb70f0fa74/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/9604e484d86502a19df824d39e75faf5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/9604e484d86502a19df824d39e75faf5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/9f83f20825a7ecd3fa506eca3e56adc8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/9f83f20825a7ecd3fa506eca3e56adc8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/298c1205cb0ad37459ba5f984d502987/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/298c1205cb0ad37459ba5f984d502987/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/df9b4512a5678ed30cb6d1742cddc471/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/df9b4512a5678ed30cb6d1742cddc471/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/edb1b4c6016ee0ce885d09427c32cee0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/mayong/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/edb1b4c6016ee0ce885d09427c32cee0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/mayong/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ed4fef2ac22189242f6bf975a6aa454b/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/mayong/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ed4fef2ac22189242f6bf975a6aa454b/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/mayong/AndroidStudioProjects/MediaSample/Application/src/main/AndroidManifest.xml
+uses-permission#permission.bind.HiMediaEngines
+ADDED from [himedia-camera-9.0.0.101.aar] /Users/mayong/.gradle/caches/transforms-1/files-1.1/himedia-camera-9.0.0.101.aar/d189b652ac3ce45b4ac5d1d5f9d60e71/AndroidManifest.xml:12:5-70
+	android:name
+		ADDED from [himedia-camera-9.0.0.101.aar] /Users/mayong/.gradle/caches/transforms-1/files-1.1/himedia-camera-9.0.0.101.aar/d189b652ac3ce45b4ac5d1d5f9d60e71/AndroidManifest.xml:12:22-67
